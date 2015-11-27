@@ -7,7 +7,7 @@ CREATE TABLE `atendpronto`.`Hospital` (
   `longitude` DOUBLE NOT NULL COMMENT '',
   PRIMARY KEY (`id`)  COMMENT '');
 
-INSERT INTO `atendpronto`.`Hospital` (`nome`, `latitude`, `longitude`)
+INSERT INTO `u985584107_atend`.`Hospital` (`nome`, `latitude`, `longitude`)
 VALUES
 	('HPSM - Hospital de Pronto Socorro', -1.4398354, -48.4807477),
 	('Porto Dias', -1.4373363, -48.4583706),
