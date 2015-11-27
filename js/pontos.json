@@ -1,0 +1,32 @@
+[
+    {
+        "Id": 1,
+        "Latitude": -1.4408156,
+        "Longitude": -48.4810967,
+        "Descricao": "Santa Casa"
+    },
+    {
+        "Id": 2,
+        "Latitude": -1.4373363,
+        "Longitude": -48.4583706,
+        "Descricao": "Porto Dias"
+    },
+    {
+        "Id": 3,
+        "Latitude": -1.4464538,
+        "Longitude": -48.4919769,
+        "Descricao": "Unimed Belém"
+    },
+    {
+        "Id": 4,
+        "Latitude": -1.40938014,
+        "Longitude": -48.43998939,
+        "Descricao": "Casa Henrique"
+    },
+    {
+        "Id": 5,
+        "Latitude": -1.40572271,
+        "Longitude": -48.4482801,
+        "Descricao": "Casa Lucas"
+    }
+]

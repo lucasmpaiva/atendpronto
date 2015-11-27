@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <title>AtendPronto</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body data-spy="scroll" data-target="#navbar">
+<nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+                    aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">AtendPronto</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#about">In&iacute;cio</a></li>
+                <li><a href="#location">Localiza&ccedil;&atilde;o</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="about">
+                <div class="content-item-space"></div>
+                <h1>
+                    Bem-vindo ao AtendPronto!
+                </h1>
+            </div>
+            <div id="location">
+                <div class="content-item-space"></div>
+                <div id="mapa" style="height: 650px; width: 100%; text-align: center;"></div>
+            </div>
+            <div id="contact">
+                <div class="content-item-space"></div>
+                <p>
+                    AtendPronto All rights reserved. 2015
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script src="js/infobox.js"></script>
+<script src="js/markerclusterer.js"></script>
+<script src="js/mapa.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
